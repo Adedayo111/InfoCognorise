@@ -1,0 +1,779 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Customertravel (Customertravel)' inline='true' name='federated.08qibju1od7ydi12wccuf0srve3a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Customertravel' name='excel-direct.0w9jj2104jhyin1fgli1r0zi6dr3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Noble Tech/Documents/Customertravel.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0w9jj2104jhyin1fgli1r0zi6dr3' name='Customertravel' table='[Customertravel$]' type='table'>
+          <columns gridOrigin='A1:G955:no:A1:G955:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Age' ordinal='0' />
+            <column datatype='string' name='FrequentFlyer' ordinal='1' />
+            <column datatype='string' name='AnnualIncomeClass' ordinal='2' />
+            <column datatype='integer' name='ServicesOpted' ordinal='3' />
+            <column datatype='string' name='AccountSyncedToSocialMedia' ordinal='4' />
+            <column datatype='string' name='BookedHotelOrNot' ordinal='5' />
+            <column datatype='integer' name='Target' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0w9jj2104jhyin1fgli1r0zi6dr3' name='Customertravel' table='[Customertravel$]' type='table'>
+          <columns gridOrigin='A1:G955:no:A1:G955:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Age' ordinal='0' />
+            <column datatype='string' name='FrequentFlyer' ordinal='1' />
+            <column datatype='string' name='AnnualIncomeClass' ordinal='2' />
+            <column datatype='integer' name='ServicesOpted' ordinal='3' />
+            <column datatype='string' name='AccountSyncedToSocialMedia' ordinal='4' />
+            <column datatype='string' name='BookedHotelOrNot' ordinal='5' />
+            <column datatype='integer' name='Target' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G955:no:A1:G955:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FrequentFlyer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FrequentFlyer]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>FrequentFlyer</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualIncomeClass</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AnnualIncomeClass]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>AnnualIncomeClass</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ServicesOpted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ServicesOpted]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>ServicesOpted</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccountSyncedToSocialMedia</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AccountSyncedToSocialMedia]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>AccountSyncedToSocialMedia</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BookedHotelOrNot</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BookedHotelOrNot]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>BookedHotelOrNot</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Target</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Target]</local-name>
+            <parent-name>[Customertravel]</parent-name>
+            <remote-alias>Target</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Customertravel_B316C490688F43989F338B89AFE24791]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Account Synced To Social Media' datatype='string' name='[AccountSyncedToSocialMedia]' role='dimension' type='nominal' />
+      <column caption='Annual Income Class' datatype='string' name='[AnnualIncomeClass]' role='dimension' type='nominal' />
+      <column caption='Booked Hotel Or Not' datatype='string' name='[BookedHotelOrNot]' role='dimension' type='nominal' />
+      <column caption='Frequent Flyer' datatype='string' name='[FrequentFlyer]' role='dimension' type='nominal' />
+      <column caption='Services Opted' datatype='integer' name='[ServicesOpted]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Customertravel' datatype='table' name='[__tableau_internal_object_id__].[Customertravel_B316C490688F43989F338B89AFE24791]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Nigeria&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Customertravel' id='Customertravel_B316C490688F43989F338B89AFE24791'>
+            <properties context=''>
+              <relation connection='excel-direct.0w9jj2104jhyin1fgli1r0zi6dr3' name='Customertravel' table='[Customertravel$]' type='table'>
+                <columns gridOrigin='A1:G955:no:A1:G955:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Age' ordinal='0' />
+                  <column datatype='string' name='FrequentFlyer' ordinal='1' />
+                  <column datatype='string' name='AnnualIncomeClass' ordinal='2' />
+                  <column datatype='integer' name='ServicesOpted' ordinal='3' />
+                  <column datatype='string' name='AccountSyncedToSocialMedia' ordinal='4' />
+                  <column datatype='string' name='BookedHotelOrNot' ordinal='5' />
+                  <column datatype='integer' name='Target' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.08qibju1od7ydi12wccuf0srve3a'>
+      <datasources>
+        <datasource caption='Customertravel (Customertravel)' name='federated.08qibju1od7ydi12wccuf0srve3a' />
+      </datasources>
+      <datasource-dependencies datasource='federated.08qibju1od7ydi12wccuf0srve3a'>
+        <column caption='Account Synced To Social Media' datatype='string' name='[AccountSyncedToSocialMedia]' role='dimension' type='nominal' />
+        <column caption='Booked Hotel Or Not' datatype='string' name='[BookedHotelOrNot]' role='dimension' type='nominal' />
+        <column caption='Frequent Flyer' datatype='string' name='[FrequentFlyer]' role='dimension' type='nominal' />
+        <column-instance column='[AccountSyncedToSocialMedia]' derivation='None' name='[none:AccountSyncedToSocialMedia:nk]' pivot='key' type='nominal' />
+        <column-instance column='[BookedHotelOrNot]' derivation='None' name='[none:BookedHotelOrNot:nk]' pivot='key' type='nominal' />
+        <column-instance column='[FrequentFlyer]' derivation='None' name='[none:FrequentFlyer:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]'>
+        <groupfilter function='level-members' level='[none:AccountSyncedToSocialMedia:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]'>
+        <groupfilter function='level-members' level='[none:BookedHotelOrNot:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]'>
+        <groupfilter function='level-members' level='[none:FrequentFlyer:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Checking In'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>Count Based on Booked/Frequent flyer/Account Synced</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Customertravel (Customertravel)' name='federated.08qibju1od7ydi12wccuf0srve3a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08qibju1od7ydi12wccuf0srve3a'>
+            <column caption='Account Synced To Social Media' datatype='string' name='[AccountSyncedToSocialMedia]' role='dimension' type='nominal' />
+            <column caption='Annual Income Class' datatype='string' name='[AnnualIncomeClass]' role='dimension' type='nominal' />
+            <column caption='Booked Hotel Or Not' datatype='string' name='[BookedHotelOrNot]' role='dimension' type='nominal' />
+            <column caption='Frequent Flyer' datatype='string' name='[FrequentFlyer]' role='dimension' type='nominal' />
+            <column-instance column='[AnnualIncomeClass]' derivation='Count' name='[cnt:AnnualIncomeClass:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AccountSyncedToSocialMedia]' derivation='None' name='[none:AccountSyncedToSocialMedia:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AnnualIncomeClass]' derivation='None' name='[none:AnnualIncomeClass:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BookedHotelOrNot]' derivation='None' name='[none:BookedHotelOrNot:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FrequentFlyer]' derivation='None' name='[none:FrequentFlyer:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.08qibju1od7ydi12wccuf0srve3a].[none:AnnualIncomeClass:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.08qibju1od7ydi12wccuf0srve3a].[cnt:AnnualIncomeClass:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]</column>
+            <column>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]</column>
+            <column>[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.08qibju1od7ydi12wccuf0srve3a].[cnt:AnnualIncomeClass:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.08qibju1od7ydi12wccuf0srve3a].[cnt:AnnualIncomeClass:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AnnualIncomeClass:nk]</rows>
+        <cols>[federated.08qibju1od7ydi12wccuf0srve3a].[cnt:AnnualIncomeClass:qk]</cols>
+      </table>
+      <simple-id uuid='{CF3426E3-976B-45AF-913A-3FF6EEBCA55D}' />
+    </worksheet>
+    <worksheet name='Sevice Opted'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Bold'>Average Service  Opted by each Class</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Customertravel (Customertravel)' name='federated.08qibju1od7ydi12wccuf0srve3a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08qibju1od7ydi12wccuf0srve3a'>
+            <column caption='Account Synced To Social Media' datatype='string' name='[AccountSyncedToSocialMedia]' role='dimension' type='nominal' />
+            <column caption='Annual Income Class' datatype='string' name='[AnnualIncomeClass]' role='dimension' type='nominal' />
+            <column caption='Booked Hotel Or Not' datatype='string' name='[BookedHotelOrNot]' role='dimension' type='nominal' />
+            <column caption='Frequent Flyer' datatype='string' name='[FrequentFlyer]' role='dimension' type='nominal' />
+            <column caption='Services Opted' datatype='integer' name='[ServicesOpted]' role='measure' type='quantitative' />
+            <column-instance column='[ServicesOpted]' derivation='Avg' name='[avg:ServicesOpted:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AccountSyncedToSocialMedia]' derivation='None' name='[none:AccountSyncedToSocialMedia:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AnnualIncomeClass]' derivation='None' name='[none:AnnualIncomeClass:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BookedHotelOrNot]' derivation='None' name='[none:BookedHotelOrNot:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FrequentFlyer]' derivation='None' name='[none:FrequentFlyer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ServicesOpted]' derivation='Sum' name='[sum:ServicesOpted:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.08qibju1od7ydi12wccuf0srve3a].[none:AnnualIncomeClass:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.08qibju1od7ydi12wccuf0srve3a].[sum:ServicesOpted:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]</column>
+            <column>[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]</column>
+            <column>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.08qibju1od7ydi12wccuf0srve3a].[sum:ServicesOpted:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.08qibju1od7ydi12wccuf0srve3a].[avg:ServicesOpted:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.08qibju1od7ydi12wccuf0srve3a].[avg:ServicesOpted:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AnnualIncomeClass:nk]</rows>
+        <cols>[federated.08qibju1od7ydi12wccuf0srve3a].[sum:ServicesOpted:qk]</cols>
+      </table>
+      <simple-id uuid='{AD010AB5-E88D-4C4E-A1F7-D93A3689FA8F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1600' minheight='800' minwidth='1600' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Customertravel (Customertravel)' name='federated.08qibju1od7ydi12wccuf0srve3a' />
+      </datasources>
+      <datasource-dependencies datasource='federated.08qibju1od7ydi12wccuf0srve3a'>
+        <column caption='Account Synced To Social Media' datatype='string' name='[AccountSyncedToSocialMedia]' role='dimension' type='nominal' />
+        <column caption='Booked Hotel Or Not' datatype='string' name='[BookedHotelOrNot]' role='dimension' type='nominal' />
+        <column caption='Frequent Flyer' datatype='string' name='[FrequentFlyer]' role='dimension' type='nominal' />
+        <column-instance column='[AccountSyncedToSocialMedia]' derivation='None' name='[none:AccountSyncedToSocialMedia:nk]' pivot='key' type='nominal' />
+        <column-instance column='[BookedHotelOrNot]' derivation='None' name='[none:BookedHotelOrNot:nk]' pivot='key' type='nominal' />
+        <column-instance column='[FrequentFlyer]' derivation='None' name='[none:FrequentFlyer:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='8' param='horz' type-v2='layout-flow' w='99000' x='500' y='1000'>
+            <zone h='98000' id='6' type-v2='layout-basic' w='99000' x='500' y='1000'>
+              <zone fixed-size='160' h='98000' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='97250' id='3' name='Sevice Opted' w='43938' x='2063' y='-375' />
+        <zone h='96875' id='5' name='Checking In' w='40063' x='47750' y='1500' />
+        <zone h='15125' id='10' name='Checking In' param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]' type-v2='filter' w='10500' x='87250' y='68375' />
+        <zone h='15125' id='11' name='Checking In' param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]' type-v2='filter' w='10500' x='87438' y='52750' />
+        <zone h='18500' id='9' name='Checking In' param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]' type-v2='filter' w='10500' x='87313' y='32375' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='24' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+                <zone fixed-size='280' h='97250' id='3' is-fixed='true' name='Sevice Opted' w='43938' x='2063' y='-375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15125' id='10' mode='checkdropdown' name='Checking In' param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]' type-v2='filter' w='10500' x='87250' y='68375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15125' id='11' mode='checkdropdown' name='Checking In' param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]' type-v2='filter' w='10500' x='87438' y='52750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18500' id='9' mode='checkdropdown' name='Checking In' param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]' type-v2='filter' w='10500' x='87313' y='32375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='96875' id='5' is-fixed='true' name='Checking In' w='40063' x='47750' y='1500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7CF76470-D80F-4F3A-9316-10C35386DED2}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sevice Opted'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]</field>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AnnualIncomeClass:nk]</field>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]</field>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E9F1B57B-1330-4E56-89A7-6CACA46D97B9}' />
+    </window>
+    <window class='worksheet' name='Checking In'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]' type='filter' />
+            <card param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]' type='filter' />
+            <card param='[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AccountSyncedToSocialMedia:nk]</field>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:AnnualIncomeClass:nk]</field>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:BookedHotelOrNot:nk]</field>
+            <field>[federated.08qibju1od7ydi12wccuf0srve3a].[none:FrequentFlyer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{41E979B1-F300-430D-B964-E019BD0687F1}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Checking In'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sevice Opted'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{9AB370BF-B0F1-4A01-8C76-72D9E3087DCD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='84' name='Checking In' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAASLklEQVR4nO3de3jT9b3A8XfStGlp0ysEeqEloBSwXoAOZUhVFAcbIOo44uYFEezmhW0O
+      eNQ9bgzF4zy6oZs6YB62IYqiAy9sSO0EWi6t9EZL0xTa9H5L03vTNm2S8wc8fWTDg4VA230/
+      r39oSPL5fdPmTdKQX34aj8fjQQhFaQd7AUIMJglAKO2bBeDqITsrC2tl7SVezr9ra7KRnZ1N
+      Q1PbgK9rr6vCUlox4Ot53C4shflYSsr5uueHbmcneScs552Vl3GAjLzi/tOf7NxGTXP3gNd0
+      Pgf27qK4wnbO83oc7eRmZ1PX2EJfh43/fXeX17c/XH2jAKx56Tz9zDOsfW7jpV7P2dvNP8TD
+      jz5JZmYGG55ZT+sAr2+vr6a4tHJA1/G4unnq0WVsfX8PW197gbUvvHnOCJxN5axZ/9vzzjue
+      cYCM4yf7T3/6wTZqWy5FALs5WfnvAVRZsvjBDx9k/+GjvLtzN30dNrbu2O317Q9Xum9yobS0
+      NO566HE+2/oa1e29pL39P1T4xrP6h0nMX7iM7Tv/zPPPPE1zRxcJSYtYc/9NzJ6bzJIFk+kJ
+      S8ToPMXh/FIaG1tY/8rraG35PPvi60THjMXu1PHXV9fx7No11DR3EJWQxPNrVqIBSooKCB5j
+      4v5lKwj09wXgnT/+hn8cNqMLCOV3G1/mtacfRh8zlSN5xVypr2feY68Q22th3V/TeXT+RFKz
+      mvnOzMn8Yu1aGnvgu99fToy2ltf/ugs3Pjz7witMjh3Zf1uLMlKxdI9i17qnoK+Tu+bNp2j5
+      A2z8yZ0YJtzAqYIclv30l1SkvUNbtYXk5GTWvfQqm59fjdXWxqgJ3+I3zz7O1t/+ir2Zpfi6
+      Orhh0fSzvp/bN73Mc4V5LH9yHcUpbxE+fQlLbjByzxMb+fiDLeg0cODTd9iy4x94NDrWv/Q7
+      bPn/ZOuHn2FvbGRp8hoW3DCep9Y8Rbvbh0U/SAbgs11v887GQmYsXM5PHlgEwF+2vMHCZT9l
+      2R1JAHTXFfav49drkqlu6aWtx483N7/O7jef4/PscvS+GjZsfIONTz2KrVeHPiyGN1/65YXf
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sevice Opted' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
